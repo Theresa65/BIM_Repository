@@ -18,4 +18,8 @@ This validates the demonstration code and synthetic fixtures. It does not establ
 
 ## Hosted execution
 
-See [GitHub Actions](https://github.com/Theresa65/BIM_Repository/actions) for the status, tested commit, runtime matrix, and logs once the hosted workflow is installed.
+The [hosted validation run](https://github.com/Theresa65/BIM_Repository/actions/runs/37794090290) completed successfully on 8 October 2026 for commit cadff04bd7184ebc7042ebcc6105457f67b45f85.
+
+Both Python **3.11** and **3.13** jobs passed the full test suite and both demonstration commands on Ubuntu. This adds hosted execution evidence for the same code and fixtures checked locally.
+
+See the run logs for the tested source and runtime details. Later documentation changes do not change which commit this recorded run validates.
