@@ -1,0 +1,27 @@
+name: Validate Python BIM workflows
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Test workflows and sample reports
+        run: python -m unittest discover -s tests -v
+      - name: Run the demonstration commands
+        run: |
+          python -m bim_automation check data/model.json --rules data/rules.json --output outputs/quality.json
+          python -m bim_automation export data/model.json --output outputs/elements.csv --summary outputs/summary.csv
