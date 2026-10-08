@@ -1,0 +1,25 @@
+{
+  "required_fields": [
+    "type",
+    "level"
+  ],
+  "required_parameters": {
+    "Walls": [
+      "fire_rating"
+    ],
+    "Doors": [
+      "mark",
+      "fire_rating"
+    ]
+  },
+  "unique_parameters": {
+    "Doors": [
+      "mark"
+    ]
+  },
+  "allowed_levels": [
+    "L00",
+    "L01",
+    "L02"
+  ]
+}

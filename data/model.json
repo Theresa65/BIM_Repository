@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "units": {
+    "area": "m2",
+    "volume": "m3"
+  },
+  "elements": [
+    {
+      "element_id": "1001",
+      "category": "Walls",
+      "type": "Basic Wall 200",
+      "level": "L00",
+      "parameters": {
+        "mark": "W-001",
+        "fire_rating": "120"
+      },
+      "area_m2": "12.5",
+      "volume_m3": "2.5"
+    },
+    {
+      "element_id": "1002",
+      "category": "Walls",
+      "type": "Basic Wall 200",
+      "level": "L00",
+      "parameters": {
+        "mark": "W-002",
+        "fire_rating": ""
+      },
+      "area_m2": "15.0",
+      "volume_m3": "3.0"
+    },
+    {
+      "element_id": "2001",
+      "category": "Doors",
+      "type": "Single leaf 900",
+      "level": "L00",
+      "parameters": {
+        "mark": "D-001",
+        "fire_rating": "60"
+      },
+      "area_m2": null,
+      "volume_m3": null
+    },
+    {
+      "element_id": "2002",
+      "category": "Doors",
+      "type": "Single leaf 900",
+      "level": "",
+      "parameters": {
+        "mark": "D-001",
+        "fire_rating": null
+      },
+      "area_m2": null,
+      "volume_m3": null
+    },
+    {
+      "element_id": "3001",
+      "category": "Floors",
+      "type": "200 mm slab",
+      "level": "L00",
+      "parameters": {
+        "mark": "F-001",
+        "fire_rating": "120"
+      },
+      "area_m2": "80.0",
+      "volume_m3": "16.0"
+    },
+    {
+      "element_id": "3002",
+      "category": "Floors",
+      "type": "200 mm slab",
+      "level": "L01",
+      "parameters": {
+        "mark": "F-002",
+        "fire_rating": "120"
+      },
+      "area_m2": "80.0",
+      "volume_m3": "16.0"
+    },
+    {
+      "element_id": "4001",
+      "category": "Rooms",
+      "type": "Office",
+      "level": "L00",
+      "parameters": {
+        "mark": "R-001"
+      },
+      "area_m2": "20.0",
+      "volume_m3": "60.0"
+    },
+    {
+      "element_id": "4002",
+      "category": "Rooms",
+      "type": "Meeting",
+      "level": "L00",
+      "parameters": {
+        "mark": "R-002"
+      },
+      "area_m2": "30.0",
+      "volume_m3": "90.0"
+    }
+  ]
+}

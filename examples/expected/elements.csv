@@ -1,0 +1,9 @@
+element_id,category,type,level,mark,fire_rating,area_m2,volume_m3
+1001,Walls,Basic Wall 200,L00,W-001,120,12.5,2.5
+1002,Walls,Basic Wall 200,L00,W-002,,15.0,3.0
+2001,Doors,Single leaf 900,L00,D-001,60,,
+2002,Doors,Single leaf 900,,D-001,,,
+3001,Floors,200 mm slab,L00,F-001,120,80.0,16.0
+3002,Floors,200 mm slab,L01,F-002,120,80.0,16.0
+4001,Rooms,Office,L00,R-001,,20.0,60.0
+4002,Rooms,Meeting,L00,R-002,,30.0,90.0

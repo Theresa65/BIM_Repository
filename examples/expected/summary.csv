@@ -1,0 +1,8 @@
+category,type,level,element_count,area_m2,area_measured_count,volume_m3,volume_measured_count
+Doors,Single leaf 900,,1,,0,,0
+Doors,Single leaf 900,L00,1,,0,,0
+Floors,200 mm slab,L00,1,80.0,1,16.0,1
+Floors,200 mm slab,L01,1,80.0,1,16.0,1
+Rooms,Meeting,L00,1,30.0,1,90.0,1
+Rooms,Office,L00,1,20.0,1,60.0,1
+Walls,Basic Wall 200,L00,2,27.5,2,5.5,2
